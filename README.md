@@ -1,6 +1,6 @@
 # flash-eeg
 
-GPU-accelerated electrophysiology (EEG, iEEG, LFP) transforms for large batch jobs. Built on PyTorch and CUDA (cuFFT).
+GPU-accelerated electrophysiology (EEG, iEEG, LFP) transforms for large batch jobs. Built on PyTorch (cuFFT).
 
 ![benchmark](benchmark.png)
 
