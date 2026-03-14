@@ -31,7 +31,7 @@ dependencies = [
 dev = ["pytest", "numpy"]
 
 [project.urls]
-Homepage = "https://github.com/maxkalcher/flash-eeg"
+Homepage = "https://github.com/Swiss-Epilepsy-Center/flash-eeg"
 
 [tool.setuptools.packages.find]
 where = ["."]
