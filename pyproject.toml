@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "flash-eeg"
-version = "0.4.0"
-description = "GPU-accelerated EEG preprocessing transforms"
+version = "0.4.1"
+description = "GPU-accelerated electrophysiology (EEG, iEEG, LFP) transforms for large batch jobs"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"

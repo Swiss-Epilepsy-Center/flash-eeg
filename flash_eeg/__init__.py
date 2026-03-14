@@ -5,7 +5,7 @@ from torch import nn
 from typing import Optional
 from functools import lru_cache
 
-__version__ = "0.4.0"
+__version__ = "0.4.1"
 __all__ = ["spectrogram", "morlet", "connectivity", "reshape", "bandpass", "clear_cache",
            "Spectrogram", "Morlet", "Connectivity", "Reshape", "Bandpass"]
 
