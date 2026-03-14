@@ -1,10 +1,10 @@
 # flash-eeg
 
-GPU-accelerated electrophysiology (EEG, iEEG, LFP) transforms for large batch jobs. Built on PyTorch and CUDA (cuFFT) under the hood.
+GPU-accelerated electrophysiology (EEG, iEEG, LFP) transforms for large batch jobs. Built on PyTorch and CUDA (cuFFT).
 
 ![benchmark](benchmark.png)
 
-*GPU: NVIDIA GH200 with `torch.compile`. CPU: MNE-Python / Scipy, fully parallelized (2x Xeon 8568Y+). 8 channels, 30s @ 250Hz.*
+*GPU: NVIDIA GH200 with `torch.compile`. CPU: MNE-Python / Scipy, fully parallelized (2x Xeon 8568Y+).
 
 ## Install
 
@@ -57,6 +57,8 @@ feeg.clear_cache()                   # free cached GPU modules
 ```
 
 ## Performance
+
+Data: 8 channels, 30s @ 250Hz.
 
 | Transform | CPU (B=1024) | GPU compiled | Speedup |
 |---|---|---|---|
